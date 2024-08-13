@@ -1,0 +1,60 @@
+ul.service-list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 20%;
+    list-style-type: none;
+    background-color: beige;
+    
+  }
+  
+  .service-list-item-wrap {
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px;
+  }
+  
+  h5.card-title {
+    font-size: 1.1rem;
+    width: 40%;
+  }
+  
+  .buttons__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+  }
+  
+  .card-btn__edit {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border: none;
+    background-image: url(../../../assets/pencil.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      cursor: pointer;
+      transition: .3s;
+  }
+  
+  .card-btn__del {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    border: none;
+    background-image: url(../../../assets/delete.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .card-btn__edit:active, .card-btn__del:active{
+    width: 30px;
+    height: 30px;
+  }
